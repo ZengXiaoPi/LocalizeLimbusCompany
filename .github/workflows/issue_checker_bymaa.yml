@@ -31,10 +31,7 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             issue_number: context.issue.number,
-            body: `⚠️ **Issue Automatically Closed** / **Issue 已自动关闭**
-This issue has been automatically closed because you checked the box indicating that you did not carefully read the requirements.
-此Issue已被自动关闭，因为您勾选了表示未仔细阅读要求的Checkbox。
-Thank you for your understanding. / 感谢您的理解。`
+            body: `由于你勾选了Trap Checkbox，请重新查看你的Checkbox，并确保你明白是否应该勾选该选项。`
           });
 
           // 关闭 issue
